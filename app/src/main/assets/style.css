@@ -1,0 +1,1926 @@
+svg{
+
+    top: 10%;
+}
+a{
+
+    text-decoration: none;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 9999;
+    display: none;
+}
+path.Angola{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Angola:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Australia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Australia:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Burundi{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Burundi:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Belgio{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Belgio:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Benin{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Benin:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Burkina_Faso{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Burkina_Faso:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Bangladesh{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bangladesh:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Bielorussia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bielorussia:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Bolivia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bolivia:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Brasile{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Brasile:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Bulgaria{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bulgaria:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Bhutan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bhutan:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Canada{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Canada:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Cote_dIvoire{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Côte_dIvoire:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Cameroon{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Cameroon:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Cuba{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Cuba:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Costa_Rica{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Costa_Rica:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Republica_Ceca{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Republica_Ceca:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Germania{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Germania:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Danimarca{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Danimarca:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Djibouti{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Djibouti:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Colombia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Colombia:hover {
+    fill: rgb(220, 84, 34);
+
+}
+path.Belize{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Belize:hover {
+    fill: rgb(220, 84, 34);
+
+}
+
+path.Svizzera{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Svizzera:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Repubblica_Centro_Africana{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Repubblica_Centro_Africana:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Botswana{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Botswana:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Brunei_Darussalam{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Brunei_Darussalam:hover {
+
+    fill: rgb(220, 84, 34);
+
+}
+path.Argentina{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Argentina:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Algeria{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Algeria:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Ecuador{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Ecuador:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Eritrea{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Eritrea:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Estonia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Estonia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Finlandia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Finlandia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Gabon{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Gabon:hover {
+
+    fill: rgb(220, 84, 34);
+}path.Regno_Unito{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Regno_Unito:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Ghana{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Ghana:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Guinea{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Guinea:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Gambia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Gambia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Guinea_Bissau{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Guinea_Bissau:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Guinea_Equatoriale{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Guinea_Equatoriale:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Grecia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Grecia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Groenlandia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Groenlandia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Guatemala{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Guatemale:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Guyana{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Guyana:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Honduras{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Honduras:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Croazia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Croazia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Ungaria{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Ungaria:hover {
+
+    fill: rgb(220, 84, 34);
+}path.Indonesia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Indonesia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Irlanda{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Irlanda:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Iraq{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Iraq:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Islanda{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Islanda:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.italia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.italia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Jamaica{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Jamaica:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Giordania{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Giordania:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Giappone{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Giappone:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Kazakhstan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Kazakhstan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Kenya{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Kenya:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Kazakhstan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Kazakhstan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Kirgyzstan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Kirgyzstan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Emirati{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Emirati:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Albania{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Albania:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Austria{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Austria:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Caledonia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Caledonia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Nauru{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Nauru:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Palau{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Palau:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Solomon{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Solomon:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Principe{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Principe:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Maarten{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Maarten:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Seychelles{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Seychelles:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.TurksCaicos{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.TurksCaicos:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Tobago{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Tobago:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Tuvalu{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Tuvalu:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Vincent{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Vincent:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Verginib{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Verginib:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Verginia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Verginia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Vanatu{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Vanatu:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Samoa{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Samoa:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Eustasius{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Eustasius:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Saba{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Saba:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Paesi_Bassi{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Paesi_Bassi:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Canarie{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Canarie:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Mayotte{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Mayotte:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Riunione{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Riunione:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Guadeloupe{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Guadeloupe:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Fiji{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Fiji:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.FPolynesia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.FPolynesia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Cambogia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Cambogia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Egitto{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Egitto:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Kuwait{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Kuwait:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Lao_PDR{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Lao_PDR:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Libano{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Libano:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Liberia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Liberia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Lesotho{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Lesotho:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Lituania{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Lituania:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Lussemburgo{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Lussemburgo:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Lettonia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Lettonia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Marocco{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Marocco:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Moldavia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Moldavia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Madagascar{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Madagascar:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Messico{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Messico:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Macedonia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Macedonia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Mali{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Mali:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Myanmar{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Myanmar:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Montenegro{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Montenegro:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Mongolia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Mongolia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Mozambico{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Mozambico:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Mauritania{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Mauritania:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Malawi{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Malawi:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Malasia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Malasia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Namibia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Namibia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Nicaragua{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Nicaragua:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Norvegia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Norvegia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Nepal{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Nepal:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Oman{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Oman:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Panama{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Panama:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Peru{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Peru:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Papua_New_Guinea{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Papua_New_Guinea:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Polonia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Polonia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Paraguay{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Paraguay:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Qatar{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Qatar:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Romania{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Romania:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Ruanda{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Ruanda:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Sahrawi{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Sahrawi:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Arabia_Saudita{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Arabia_Saudita:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Sudan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Sudan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Sud_Sudan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Sud_Sudan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Senegal{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Senegal:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Siera_Leone{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Sierra_Leone:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Salvador{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Salvador:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Serbia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Serbia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Suriname{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Suriname:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Slovacchia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Slovacchia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Slovenia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Slovenia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Svezia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Svezia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Siria{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Siria:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Ciad{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Ciad:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Togo{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Togo:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Tailandia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Tailandia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Tajikistan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Tajikistan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Turkmenistan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Turkmenistan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Timor_est{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Timor_est:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Tunisia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Tunisia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Rcongo{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Rcongo:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.PuertoRico{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.PuertoRico:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Vietnam{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Vietnam:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Turchia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Turchia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Taiwan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Taiwan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Tanzania{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Tanzania:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Uruguay{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Uruguay:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Uzbekistan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Uzbekistan:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Zambia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Zambia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Zimbawe{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Zimbawe:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Kosovo{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Kosovo:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Sud_Africa{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Sud_Africa:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.New_Zealand{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.New_Zealand:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Chile{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Chile:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Paesi_Bassi{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Paesi_Bassi:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Portogallo{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Portogallo:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Spagna{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Spagna:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Usa{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Usa:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.GuyanaF{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.GuyanaF:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Aruba{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Aruba:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Anguilla{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Anguilla:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Samoa{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Samoa:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Antigua{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Antigua:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Bahrei{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bahrei:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Bahamas{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bahamas:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Barth{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Barth:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Bermuda{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Bermuda:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Barbados{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Barbados:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Comoros{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Comoros:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Curacao{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Curacao:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Cayman_Islands{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Cayman_Islands:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Dominica{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Dominica:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Falkland{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Falkland:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Feroe{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Feroe:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Grenada{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Grenada:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Micronesia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Micronesia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Guam{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Guam:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Saintkn{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Saintkn:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Lucia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Lucia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Martino{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Martino:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Maldive{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Maldive:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Marshall{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Marshall:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Malta{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Malta:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Mariana{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Mariana:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Montserrat{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Montserrat:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Mauritius{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Mauritius:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Cape_Verde{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Cape_Verde:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Francia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Francia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Sri_Lanka{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Sri_Lanka:hover {
+
+    fill: rgb(220, 84, 34);
+}
+path.Republica_Dominicana{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+path.Republica_Dominicana:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+path.ucraina {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.ucraina:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+svg.russia path {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+svg.russia:hover path{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.israele{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.israele:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.palestina{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.palestina:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.siria{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.siria:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.yemen{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.yemen:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.afghanistan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.afghanistan:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.etiopia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.etiopia:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.congo{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.congo:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+svg.sudan path{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+svg.sudan:hover path{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.myanmar {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.myanmar:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+path.somalia {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.somalia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+path.libia {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.libia:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+path.mali {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.mali:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+path.iran {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.iran:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+path.nordcorea {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.nordcorea:hover {
+
+    fill: rgb(220, 84, 34);
+}
+
+path.sudcorea{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.sudcorea:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+svg.azerbaijan path {
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+svg.azerbaijan:hover path{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.nigeria{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.nigeria:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.pakistan{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.pakistan:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.india{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.india:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.haiti{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.haiti:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.venezuela{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.venezuela:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.colombia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.colombia:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+svg.cina path{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+svg.cina:hover path{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.georgia{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.georgia:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.bosnia-erzegovina{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.bosnia-erzegovina:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+path.niger{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.niger:hover{
+
+    fill: rgb(220, 84, 34);
+}
+path.ciad{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+path.ciad:hover{
+
+    fill: rgb(220, 84, 34);
+}
+
+svg.cipro path{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+svg.cipro:hover path{
+
+    fill: rgb(220, 84, 34);
+}
+
+svg.filippine path{
+    cursor: pointer;
+    transition: fill 0.225s ease-in;
+}
+
+svg.filippine:hover path{
+
+    fill: rgb(220, 84, 34);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    z-index: 999;
+}
+.rs-button {
+
+    padding: 20px;
+    border-radius: 15px;
+    border: grey;
+    background-color: #a6d1ff;
+    box-shadow: 2px 2px 3px 1px grey;
+    transition: all 0.225s ease-in;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.rs-button:hover {
+
+    background-color: rgb(220, 84, 34);
+}
+
+.rs-button:active{
+
+    opacity: 0.8;
+}
+
+.logo{
+
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    z-index: 1000; 
+}
