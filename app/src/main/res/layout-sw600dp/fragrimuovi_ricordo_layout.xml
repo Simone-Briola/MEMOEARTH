@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<androidx.cardview.widget.CardView
+    android:layout_width="0dp"
+    app:layout_constraintWidth_percent="0.90"
+    android:layout_height="0dp"
+    app:layout_constraintHeight_percent="0.80"
+app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="40dp"
+    android:backgroundTint="#156EB6"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_img_ricordo"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.75"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="8dp"
+            app:cardElevation="2dp">
+            <ImageView
+                android:id="@+id/img_ricordo"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent"
+                tools:src="@drawable/logo_senza_sfondo"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/txt_titolo"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="10dp"
+            android:text="titolo"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/txt_citta"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="citta"
+            android:layout_margin="8dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+app:layout_constraintTop_toBottomOf="@id/txt_titolo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.60"
+            />
+        <Button
+            android:id="@+id/btnelimina"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.75"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="ELIMINA"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#E83B3B"
+            android:layout_marginBottom="10dp"
+            />
+        <Button
+            android:id="@+id/btninvia"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.75"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/btnelimina"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="INVIA"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#52C549"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

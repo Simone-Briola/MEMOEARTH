@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragQuiz"
+    android:background="@drawable/fotospazio">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_questionario"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.80"
+        app:layout_constraintHeight_percent="0.75"
+        app:cardCornerRadius="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:clickable="true"
+        android:focusable="true"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#276BA3"
+            >
+
+            <TextView
+                android:id="@+id/risultato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="risultato"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintTop_toBottomOf="@id/punteggio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:id="@+id/punteggio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="punteggio"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@id/scritta_fine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+          <TextView
+              android:id="@+id/scritta_fine"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintBottom_toTopOf="@id/btnrigioca"
+              app:layout_constraintTop_toTopOf="parent"
+              android:layout_marginBottom="40dp"
+              android:text="FINE"
+              android:textSize="85sp"
+              android:textColor="@color/white"
+              android:fontFamily="sans-serif-condensed-medium"
+              />
+             <Button
+                 android:id="@+id/btnindietro"
+                 android:layout_width="0dp"
+                 android:layout_height="0dp"
+                 app:layout_constraintHeight_percent="0.10"
+                 app:layout_constraintWidth_percent="0.67"
+                 android:backgroundTint="#0D69E5"
+                 android:textColor="@color/white"
+                 app:layout_constraintTop_toBottomOf="@id/risultato"
+                 app:layout_constraintBottom_toTopOf="@id/btnrigioca"
+                 android:layout_marginTop="20dp"
+                 app:layout_constraintEnd_toEndOf="parent"
+                 app:layout_constraintStart_toStartOf="parent"
+                 android:text="INDIETRO"
+                 android:textSize="25dp"
+                 />
+            <Button
+                android:id="@+id/btnrigioca"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintHeight_percent="0.10"
+                app:layout_constraintWidth_percent="0.67"
+                android:backgroundTint="#0D69E5"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@+id/btnindietro"
+             app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="RIGIOCA"
+                android:textSize="25dp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

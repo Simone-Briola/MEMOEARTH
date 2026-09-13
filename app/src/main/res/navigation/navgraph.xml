@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigator"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/fragmentwb"
+        android:name="com.example.myapplication.Fragmentwb"
+        android:label="Fragmentwb" >
+        <action
+            android:id="@+id/HomeDaWb"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/Aggiunta_ricordo"
+            app:destination="@id/fragAggiuntaRicordo"
+            app:launchSingleTop="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.ui.theme.homeFragment"
+        android:label="homeFragment" >
+        <action
+            android:id="@+id/WbDaHome"
+            app:destination="@id/fragmentwb" />
+        <action
+            android:id="@+id/QuizDaHome"
+            app:destination="@id/fragQuiz" />
+        <action
+            android:id="@+id/RiconoscimentiDaHome"
+            app:destination="@id/fragRiconoscimenti" />
+        <action
+            android:id="@+id/RicordiDaHome"
+            app:destination="@id/fragRicordi" />
+        <action
+            android:id="@+id/impostazioni_utente"
+            app:destination="@id/fragUtente" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragQuiz"
+        android:name="com.example.myapplication.FragQuiz"
+        android:label="fragment_frag_quiz"
+        tools:layout="@layout/fragquiz_layout" >
+        <action
+            android:id="@+id/HomeDaQuiz"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/DomandeDaBandiere"
+            app:destination="@id/fragQuiz_domande" />
+        <action
+            android:id="@+id/LinguaggioDaBandiere"
+            app:destination="@id/fragQuiz_Linguaggio" />
+        <action
+            android:id="@+id/DifficoltaDaBandiere"
+            app:destination="@id/fragDifficoltaBandiere"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/fragDifficoltaBandiere"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragQuiz_domande"
+        android:name="com.example.myapplication.FragQuiz_domande"
+        android:label="domande_layout"
+        tools:layout="@layout/domande_layout" >
+        <action
+            android:id="@+id/BandiereDaDomande"
+            app:destination="@id/fragQuiz" />
+        <action
+            android:id="@+id/HomeDaDomande"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/DifficoltaDaDomande"
+            app:destination="@id/fragDifficolta"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/fragDifficolta"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragQuiz_Linguaggio"
+        android:name="com.example.myapplication.FragQuiz_Linguaggio"
+        android:label="FragQuiz_Linguaggio" >
+        <action
+            android:id="@+id/HomeDaLinguaggio"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/QuizDaLinguaggio"
+            app:destination="@id/fragQuiz" />
+        <action
+            android:id="@+id/DifficoltaDaLinguaggio"
+            app:destination="@id/fragDifficoltaLinguaggio"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/fragDifficoltaLinguaggio"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragRiconoscimenti"
+        android:name="com.example.myapplication.FragRiconoscimenti"
+        android:label="riconoscimenti_layout"
+        tools:layout="@layout/riconoscimenti_layout" />
+    <fragment
+        android:id="@+id/fragGiocoDomande"
+        android:name="com.example.myapplication.FragGiocoDomande"
+        android:label="fraggioco_domande_layout"
+        tools:layout="@layout/fraggioco_domande_layout" >
+        <action
+            android:id="@+id/DomandeDaGioco"
+            app:destination="@id/fragQuiz_domande" />
+        <action
+            android:id="@+id/FineQuiz"
+            app:destination="@id/fragFineQuiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragFineQuiz"
+        android:name="com.example.myapplication.ui.theme.FragFineQuiz"
+        android:label="FragFineQuiz" >
+        <action
+            android:id="@+id/RicominciaQuiz"
+            app:destination="@id/fragDifficolta" />
+        <action
+            android:id="@+id/DomandeDaFineQuiz"
+            app:destination="@id/fragQuiz_domande" />
+        <action
+            android:id="@+id/RicominciaQuizLinguaggio"
+            app:destination="@id/fragDifficoltaLinguaggio" />
+        <action
+            android:id="@+id/LinguaggioDaFineQuiz"
+            app:destination="@id/fragQuiz_Linguaggio" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragDifficolta"
+        android:name="com.example.myapplication.ui.theme.FragDifficoltaDomande"
+        android:label="FragDifficolta" >
+        <action
+            android:id="@+id/AvviaQuiz"
+            app:destination="@id/fragGiocoDomande" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragDifficoltaLinguaggio"
+        android:name="com.example.myapplication.FragDifficoltaLinguaggio"
+        android:label="FragDifficoltaLinguaggio" >
+        <action
+            android:id="@+id/AvviaQuizLinguaggio"
+            app:destination="@id/fragGiocoLinguaggio" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragGiocoLinguaggio"
+        android:name="com.example.myapplication.ui.theme.FragGiocoLinguaggio"
+        android:label="fraggioco_linguaggio_layout"
+        tools:layout="@layout/fraggioco_linguaggio_layout" >
+        <action
+            android:id="@+id/LinguaggioDaGioco"
+            app:destination="@id/fragQuiz_Linguaggio" />
+        <action
+            android:id="@+id/FineQuizLinguaggio"
+            app:destination="@id/fragFineQuiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragGiocoBandiera"
+        android:name="com.example.myapplication.ui.theme.FragGiocoBandiera"
+        android:label="FragGiocoBandiera">
+        <action
+            android:id="@+id/FineQuizBandiere"
+            app:destination="@id/fragFineQuiz" />
+        <action
+            android:id="@+id/QuizDaGioco"
+            app:destination="@id/fragQuiz" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragDifficoltaBandiere"
+        android:name="com.example.myapplication.ui.theme.FragDifficoltaBandiere"
+        android:label="FragDifficoltaBandiere" >
+        <action
+            android:id="@+id/AvviaGiocoBandiere"
+            app:destination="@id/fragGiocoBandiera" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragRicordi"
+        android:name="com.example.myapplication.ui.theme.FragRicordi"
+        android:label="fragricordi_layout"
+        tools:layout="@layout/fragricordi_layout" >
+        <action
+            android:id="@+id/RimuoviRicordo"
+            app:destination="@id/fragRimuoviRicordo" />
+        <action
+            android:id="@+id/wbDaRicordi"
+            app:destination="@id/fragmentwb" />
+        <action
+            android:id="@+id/homeDaRicordi"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragAggiuntaRicordo"
+        android:name="com.example.myapplication.ui.theme.FragAggiuntaRicordo"
+        android:label="FragAggiuntaRicordo" />
+    <fragment
+        android:id="@+id/fragRimuoviRicordo"
+        android:name="com.example.myapplication.fragRimuoviRicordo"
+        android:label="fragment_frag_rimuovi_ricordo"
+        tools:layout="@layout/fragrimuovi_ricordo_layout" />
+    <fragment
+        android:id="@+id/fragUtente"
+        android:name="com.example.myapplication.FragUtente"
+        android:label="FragUtente" />
+</navigation>

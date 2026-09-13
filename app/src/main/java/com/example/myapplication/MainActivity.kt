@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
 object Stato{ //since we need to comunicate with javascript we need to create a global state capable of doing so
 var continente_selezionato= mutableStateOf<String?>(null)
 }
