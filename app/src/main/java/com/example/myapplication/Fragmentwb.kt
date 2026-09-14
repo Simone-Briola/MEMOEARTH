@@ -1,16 +1,16 @@
 package com.example.myapplication
-import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.Button
 import android.widget.ImageView
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.cardview.widget.CardView
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.Navigation
+import kotlinx.coroutines.launch
+
 class Fragmentwb: Fragment(R.layout.fragwb_layout) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?){
         super.onViewCreated(view, savedInstanceState)
@@ -33,17 +33,16 @@ class Fragmentwb: Fragment(R.layout.fragwb_layout) {
         wb.settings.domStorageEnabled = true
         //makes it so that android can be recalled by javascript
         wb.addJavascriptInterface(JS{nomeStato:String?->stato_selezionato=nomeStato //recalling the js interface and the selected state element
-                    activity?.runOnUiThread {
+                    lifecycleScope.launch {
                         nome=nomeStato
                         if (tendina_aperta){
                             btnricordo.alpha=1f
                             btnricordo.isEnabled=true
                         }
-                    }//thread that makes the button visible and clickable
+                    }//Coroutine that makes the button visible and clickable
                                     }, "Android")
         wb.webViewClient = WebViewClient()
-        // Allows zooming in the web view
-        wb.settings.setSupportZoom(true)
+        wb.settings.setSupportZoom(true)        // Allows zooming in the web view
         wb.settings.builtInZoomControls = true
         wb.settings.displayZoomControls = false
         wb.settings.useWideViewPort = true

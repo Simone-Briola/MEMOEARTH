@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".FragQuiz"
-    android:background="@color/cardview_shadow_start_color">
-
+    android:background="@drawable/fotospazio">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/domande"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintWidth_percent="0.70"
-        app:layout_constraintHeight_percent="0.65"
+        app:layout_constraintWidth_percent="0.80"
+        app:layout_constraintHeight_percent="0.75"
         app:cardCornerRadius="60dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,41 +24,42 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#276BA3"
             >
             <ImageView
                 android:id="@+id/questionario"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                app:layout_constraintWidth_percent="0.40"
+                app:layout_constraintHeight_percent="0.70"
+                app:layout_constraintWidth_percent="0.80"
                 app:layout_constraintDimensionRatio="1:1"
                 android:src="@drawable/icona_questionario"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-
                 />
 
             <TextView
+                android:id="@+id/testo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-black"
                 android:text="DOMANDE"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintBottom_toTopOf="@id/bandiere" />
-
-
+                app:layout_constraintBottom_toBottomOf="@id/questionario" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+
     <ImageView
         android:id="@+id/freccia_avanti"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintWidth_percent="0.15"
+        app:layout_constraintWidth_percent="0.13"
         app:layout_constraintDimensionRatio="1:1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -72,7 +71,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintWidth_percent="0.40"
-        app:layout_constraintHeight_percent="0.19"
+        app:layout_constraintHeight_percent="0.10"
         android:src="@drawable/immagine_home"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

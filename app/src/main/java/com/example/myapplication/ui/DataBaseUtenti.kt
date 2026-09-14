@@ -17,7 +17,7 @@ abstract class DataBaseUtenti: RoomDatabase() {
                     contesto.applicationContext,
                     DataBaseUtenti::class.java,
                     "database_utenti_memoearth"
-                ).fallbackToDestructiveMigration().build()
+                ).build()
                 istanza=NuovaIstanza
                 NuovaIstanza //returns the instance
             }

@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 android:layout_height="match_parent"
+    android:background="@drawable/fotospazio"
     android:layout_width="match_parent">
 <androidx.cardview.widget.CardView
     android:layout_width="0dp"
@@ -16,12 +17,12 @@ app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:cardElevation="8dp"
     app:cardCornerRadius="40dp"
-    android:backgroundTint="#156EB6"
+    android:background="#276BA3"
     >
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:background="#276BA3"
         >
         <androidx.cardview.widget.CardView
             android:id="@+id/card_img_ricordo"
@@ -39,7 +40,6 @@ app:layout_constraintTop_toTopOf="parent"
             <ImageView
                 android:id="@+id/img_ricordo"
                 android:layout_width="match_parent"
-                android:scaleType="centerCrop"
                 android:layout_height="match_parent"
                 tools:src="@drawable/logo_senza_sfondo"
                 />

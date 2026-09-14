@@ -224,7 +224,6 @@ val view_bandiera=view.findViewById<ImageView>(R.id.bandiera)
         }
 for(j in 0..3) {
     bottoni[j].setOnClickListener {
-        progressBar.setProgress(progressBar.progress+1, true)
         btnnext.animate().alpha(1f).setDuration(500).start()
         btnnext.isEnabled=true
         if (bandiera.immagine_giusta == j+1) {

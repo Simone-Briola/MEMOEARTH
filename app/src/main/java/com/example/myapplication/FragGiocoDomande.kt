@@ -179,7 +179,6 @@ private var punti=0
         view.findViewById<Button>(R.id.btn4),
         )
 var btnnext=view.findViewById<Button>(R.id.btnnext)
-        progressBar.setProgress(progressBar.progress+1, true)
         val testo_punteggio=view.findViewById<TextView>(R.id.punteggio)
         var testo_offset_punteggio=view.findViewById<TextView>(R.id.offset_punteggio)
         testo_offset_punteggio.alpha=0f

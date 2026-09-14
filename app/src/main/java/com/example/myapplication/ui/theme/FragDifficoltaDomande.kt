@@ -9,7 +9,6 @@ import androidx.navigation.Navigation
 import com.example.myapplication.R
 
 class FragDifficoltaDomande : Fragment(R.layout.fragdifficolta_layout) {
-    private val livello_difficolta='n'
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }

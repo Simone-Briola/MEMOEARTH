@@ -28,7 +28,7 @@ import com.example.myapplication.ui.DataBaseUtenti
 import kotlinx.coroutines.launch
 
 
-class homeFragment : Fragment() {
+class homeFragment : Fragment(R.layout.fragment_home) {
     override fun onViewCreated(view: View,savedInstanceState: Bundle?) {
         super.onViewCreated(view,savedInstanceState)
 val immagine_mappa=view.findViewById<CardView>(R.id.immagine_mappa)
@@ -85,15 +85,5 @@ db.userDao().CreaUtente(user)
     logouni.setOnClickListener {
         Navigation.findNavController(view).navigate(R.id.RiconoscimentiDaHome)
     }
-
-    }
-
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-    return inflater.inflate(R.layout.fragment_home, container, false)
     }
     }
